@@ -4,9 +4,8 @@ public class Chapter08 {
 		int number = 1;
 		while (number < 5) {
 			int answer;
-			answer =  number * number;
-			System.out.println(answer);
-			number ++;
+			System.out.println(number * number);
+			number++;
 		}
 		
 		int[] array = {3, 10, 9, 2};
