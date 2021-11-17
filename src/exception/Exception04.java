@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class Exception04 {
 	public static void main(String[] args) {
 		try {
-				Exception04.readFile("exception.txt");
+			Exception04.readFile("exception.txt");
 		} catch  (FileNotFoundException e) {
 			System.out.println("FileNotFoundException例外が発生");
 		}
