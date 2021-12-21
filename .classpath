@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="src" path="KinoCode"/>
+	<classpathentry kind="src" path="HelloWorld"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
