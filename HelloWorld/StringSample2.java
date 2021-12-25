@@ -9,8 +9,8 @@ public class StringSample2 {
 		System.out.println("str1:" + str1);
 		System.out.println("str2:" + str2);
 		System.out.println();
-		System.out.println("str1(toUpper):");
-		System.out.println("str1(length):");
+		System.out.println("str1(toUpper):" + str1.toUpperCase());
+		System.out.println("str1(length):" + str1.length());
 		System.out.println();
 		
 		if(str1 == str2) {
@@ -19,9 +19,15 @@ public class StringSample2 {
 			System.out.println("str1 == str2 : false");
 		}
 		if(str1.equals(str2)) {
-			System.out.println("str1.equals(str2) : true");
+			System.out.println("str1.equals(str2) : true\n");
 		} else {
-			System.out.println("str1.equals(str2) : false");
+			System.out.println("str1.equals(str2) : false\n");
 		}
+		if(str1.equals("")) {
+			System.out.println("str1は空です");
+		} else {
+			System.out.println("str1は空ではありません");
+		}
+		
 	}
 }
