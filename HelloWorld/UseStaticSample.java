@@ -11,6 +11,7 @@ public class UseStaticSample {
 		StaticSample ss2 = new StaticSample();
 		System.out.println("-- ss2オブジェクト");
 		System.out.println("インスタンス変数 num = " + ss2.num);
-		System.out.println("クラス変数 staticNum = " + ss2.staticNum);
+		System.out.println(
+				"クラス変数 staticNum = " + ss2.staticNum);
 	}
 }
