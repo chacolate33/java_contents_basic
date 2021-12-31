@@ -4,3 +4,4 @@ public class BDPlayer implements PlayIF {
 		System.out.println("ブルーレイを再生しました\n");
 	}
 }
+
