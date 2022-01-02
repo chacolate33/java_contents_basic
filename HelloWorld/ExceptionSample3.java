@@ -22,5 +22,6 @@ public class ExceptionSample3 {
 			System.out.println("\n何かの例外が発生しました！！");
 		}
 		System.out.println("正常終了");
+		
 	}
 	}
