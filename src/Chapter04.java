@@ -7,7 +7,5 @@ public class Chapter04 {
 		name = "lukey";
 		int num1 = 7;
 		System.out.println(num1);
-		
 	}
-	
 }
