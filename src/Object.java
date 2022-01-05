@@ -14,7 +14,8 @@ public class Object {
 	Dessert apple = Dessert.valueOf("APPLE");
 	System.out.println(apple);
 	
-	Dessert orange = Dessert.valueOf("ORANGE");
+//	Dessert orange = Dessert.valueOf("ORANGE");
+	
 	
 	}
 }
